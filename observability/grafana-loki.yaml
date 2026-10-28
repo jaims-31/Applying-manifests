@@ -20,6 +20,7 @@ spec:
           enabled: true
         grafana:
           enabled: true
+          adminUser: "admin"
           adminPassword: "admin"
   destination:
     server: 'https://kubernetes.default.svc'
